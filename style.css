@@ -77,10 +77,10 @@ h1 {
         font-family: "Arimo", sans-serif;
         
         font-size: 1.3em;
-        margin: 40px 0 0 50px;
+        margin: auto;
     }
     .container-1 img {
-        margin-right: 40px;
+        margin:auto;
         object-fit: cover;
     }
     .container-1 img .text-1 {
