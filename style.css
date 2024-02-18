@@ -77,11 +77,16 @@ h1 {
         font-family: "Arimo", sans-serif;
         width: 30%;
         font-size: 1.3em;
-        margin: 20px 0 0 50px;
+        margin: 20px 0 0 100px;
     }
     .container-1 img {
-        margin: 0 70px 0 0;
-        width: 20%;
+        margin: 0 100px 0 0;
+        max-width: 20%;
+        object-fit: cover;
+    }
+    .container-1 img .text-1 {
+        display: flex;
+        justify-content: space-between;
     }
     .container-1 .text-2 {
         font-family: "Arimo", sans-serif;
