@@ -75,13 +75,13 @@ h1 {
 @media (max-width: 600px) {
     .container-1 .text-1 {
         font-family: "Arimo", sans-serif;
-        width: 40%;
-        font-size: 2em;
-        margin: 0 0 0 30px;
+        width: 30%;
+        font-size: 1.3em;
+        margin: 20px 0 0 50px;
     }
     .container-1 img {
-        margin: 0 50px 0 0;
-        width: 40%;
+        margin: 0 70px 0 0;
+        width: 30%;
     }
     .container-1 .text-2 {
         font-family: "Arimo", sans-serif;
@@ -117,6 +117,9 @@ h1 {
     }
     .container-4 img {
         width: 95%;
+    }
+    .container-4 .content {
+        font-size: 0.8em;
     }
     footer {
         background-color: white;
