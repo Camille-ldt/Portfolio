@@ -75,13 +75,12 @@ h1 {
 @media (max-width: 600px) {
     .container-1 .text-1 {
         font-family: "Arimo", sans-serif;
-        width: 30%;
+        
         font-size: 1.3em;
-        margin: 20px 0 0 100px;
+        margin: 40px 0 0 50px;
     }
     .container-1 img {
-        margin: 0 100px 0 0;
-        max-width: 20%;
+        margin-right: 40px;
         object-fit: cover;
     }
     .container-1 img .text-1 {
