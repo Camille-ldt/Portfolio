@@ -1,0 +1,157 @@
+nav a.navbar-brand,
+nav a.nav-link,
+nav .navbar-nav a.nav-link.active {
+  color: #fff;
+}
+
+nav {
+    background-color: rgba(26, 25, 25, 0.5);
+   
+  }
+body {
+    background: linear-gradient(#0031D2C1, #14172b);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+    
+h1 {
+    padding-bottom: 40px;
+}
+.rounded-circle {
+    border-radius: 40%!important;
+}
+.container-1 .text-1 {
+    font-family: "Arimo", sans-serif;
+    width: 40%;
+    font-size: 3em;
+    margin: 80px 0 0 200px;
+}
+.container-1 .text-2 {
+    font-family: "Arimo", sans-serif;
+    width: 50%;
+    font-size: 1.3em;
+    margin: 0 0 10px 100px;
+}
+.container-1 {
+    margin-top: 50px;
+}
+.container-1 img {
+    filter: grayscale(1);
+}
+.container-2 h1 {
+    margin: 100px 0 30px 0;
+    text-transform: uppercase;
+    font-family: "Arimo", sans-serif;
+    font-size: 2em;
+    
+}
+
+.container-3 h1 {
+    margin: 100px 0 30px 0;
+    text-transform: uppercase;
+    font-family: "Arimo", sans-serif;
+    font-size: 2em;
+}
+.card {
+    padding: 20px;
+    margin: 20px;
+}
+.container-4 h1 {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: "Arimo", sans-serif;
+}
+.container-4 p {
+    font-size: 1.2em;
+    font-family: "Arimo", sans-serif;
+}
+.container-4 img {
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+@media (max-width: 600px) {
+    .container-1 .text-1 {
+        font-family: "Arimo", sans-serif;
+        width: 40%;
+        font-size: 2em;
+        margin: 0 0 0 30px;
+    }
+    .container-1 img {
+        margin: 0 50px 0 0;
+        width: 40%;
+    }
+    .container-1 .text-2 {
+        font-family: "Arimo", sans-serif;
+        width: 90%;
+        font-size: 1.1em;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .container-2 h1 {
+        text-transform: uppercase;
+    font-family: "Arimo", sans-serif;
+    font-size: 1.5em;
+    margin: 30px 0 0 0;
+    }
+    .container-2 img {
+        width: 9%;
+    }
+    .container-3 h1 {
+        text-transform: uppercase;
+        font-family: "Arimo", sans-serif;
+    font-size: 1.5em;
+    margin: 30px 0 0 0;
+    }
+    .card {
+       margin: auto;
+       margin-bottom: 20px;
+    }
+    .container-4 h1 {
+        text-transform: uppercase;
+        font-family: "Arimo", sans-serif;
+        font-size: 1.5em;
+        margin: 30px 0 0 0;
+    }
+    .container-4 img {
+        width: 95%;
+    }
+    footer {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 5px 0;
+        margin: 50px 0 0 0;
+        font-weight: bolder;
+        font-size: 0.8em;
+        
+    }
+    footer .fa-brands {
+        font-size: 0.7em;
+    }
+}
+.container-5 h1 {
+    text-transform: uppercase;
+    margin: 50px 0 0 0;
+    font-family: "Arimo", sans-serif;
+    font-size: 2em;
+}
+footer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    margin: 50px 0 0 0;
+    font-weight: bolder;
+    
+}
+footer .fa-brands {
+    font-size: 2em;
+    color: #0031D2C1;
+}
