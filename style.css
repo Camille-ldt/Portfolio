@@ -75,13 +75,14 @@ h1 {
 @media (max-width: 600px) {
     .container-1 .text-1 {
         font-family: "Arimo", sans-serif;
-        
+        width: 30%;
         font-size: 1.3em;
         margin: auto;
     }
     .container-1 img {
         margin:auto;
         object-fit: cover;
+        width: 50%;
     }
     .container-1 img .text-1 {
         display: flex;
